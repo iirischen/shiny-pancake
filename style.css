@@ -118,7 +118,7 @@ li.nav a:hover {
   position: absolute;
   left: 20%;
   right: 20%;
-  top: 40%; /* Change this value to move the box up or down */
+  top: 45%; /* Change this value to move the box up or down */
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -180,12 +180,12 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
-  
+  background-attachment: fixed;
 }
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
+  background-image: url("https://cdn.glitch.com/6dc914c4-0aa7-4635-9563-4083ac4f1618%2Fmichelle-ding-LXUR8IWa0i0-unsplash.jpg?v=1592945198953");
 }
 
 /* TODO: Replace the current image URL with your own */
@@ -209,6 +209,12 @@ li.nav a:hover {
 /******************************************************/
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
-@media
+@media screen and (max-width: 700px) {
+  
+  .flex-container{
+    flex-wrap: wrap;
+    top: 20%;
+  }
+} 
 
 /* TODO: Add additional breakpoints based on your website's design
