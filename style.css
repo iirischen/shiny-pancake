@@ -65,7 +65,7 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #43d6b9ff;
+  background-color: #423737;
   border-style: solid;
   border-color: #0D38D3;
 }
@@ -83,7 +83,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #0D38D3;
+  color: #C29699;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -95,8 +95,7 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
-  color: #43d6b9ff;
+  background-color: #8D7575;
 }
 
 /************************************************/
