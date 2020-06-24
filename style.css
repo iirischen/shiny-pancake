@@ -77,7 +77,9 @@ ul.nav-bar {
 li.nav {
   /* Styling for the <li class="nav"> element */
   float: right;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.9px;
 }
 
 /* TODO (optional): Change the font color, decoration, and/or case */
@@ -90,7 +92,6 @@ li.nav a {
   padding: 14px 16px;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
@@ -120,7 +121,7 @@ li.nav a:hover {
   position: absolute;
   left: 20%;
   right: 20%;
-  top: 45%; /* Change this value to move the box up or down */
+  top: 40%; /* Change this value to move the box up or down */
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
