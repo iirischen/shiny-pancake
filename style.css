@@ -18,7 +18,6 @@ body,
 html {
   height: 100%;
   font-size: 20px; /* Change the font size*/
-  font-family: "Roboto", sans-serif; /* Change the font */
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
@@ -30,7 +29,7 @@ h1 {
   letter-spacing: 5px;
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
-  font-family: "Roboto Mono", sans-serif;
+  font-family: 'Anton', sans-serif;
   color: #43d6b9ff;
   text-align: center;
 }
@@ -39,12 +38,15 @@ h1 {
 h2 {
   letter-spacing: 3px;
   font-size: 25px;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: 'Anton', sans-serif;
   color: #43d6b9ff;
   text-align: center;
   line-height: 1.3em;
 }
 
+p {
+  font-family: 'Sarabun', sans-serif;
+}
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
   color: #43d6b9ff;
@@ -67,7 +69,7 @@ ul.nav-bar {
   overflow: hidden;
   background-color: #423737;
   border-style: solid;
-  border-color: #0D38D3;
+  border-color: #CC6C6C;
 }
 
 /* TODO (optional): Change the font size*/
@@ -126,12 +128,13 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
-  padding: 2%;
+  padding: 5%;
   color: #422323;
   font-size: 50px;
   letter-spacing: 6px;
   line-height: 70px;
   text-align: center;
+  font-family: 'Anton', sans-serif;
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
@@ -146,6 +149,7 @@ li.nav a:hover {
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.9em; /* Adds space between lines */
   text-align: center;
+  font-family: 'Sarabun', sans-serif;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -201,7 +205,7 @@ li.nav a:hover {
 }
 /* TODO: Add more background images by repeating the process above */
 .image-three {
-  background-image: url()
+  background-image: url(https://cdn.glitch.com/6dc914c4-0aa7-4635-9563-4083ac4f1618%2Fkatherine-hanlon-bHhEJAXyFOg-unsplash.jpg?v=1592956999307);
 }
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
