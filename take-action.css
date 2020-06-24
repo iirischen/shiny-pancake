@@ -18,7 +18,7 @@ h1 {
 }
 
 .action-text {
-  align-items: center
+  align-items: center;
 }
 /******************************************************/
 /***************** ACTION ITEM LIST *******************/
@@ -29,14 +29,14 @@ h1 {
   display: flex;
 
   position: absolute;
-  padding: 0.5em 0;
+  padding: .5em 0;
   align-items: center;
 
   left: 5%;
   right: 5%;
 
   margin: 5% 0;
-  width: 90%;
+  width: 80%;
 
   flex-direction: row;
   flex-wrap: nowrap;
