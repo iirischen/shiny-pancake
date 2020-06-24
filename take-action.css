@@ -2,6 +2,10 @@
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
 
+body {
+  background-color: #422323;
+}
+
 .page-header-action {
   width: 100%;
   position: absolute;
@@ -9,7 +13,13 @@
   background-color: #CC6C6C;
 }
 
+h1 {
+  color: #422323;
+}
 
+.action-text {
+  align-items: center
+}
 /******************************************************/
 /***************** ACTION ITEM LIST *******************/
 /******************************************************/
