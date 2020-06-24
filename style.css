@@ -37,17 +37,18 @@ h1 {
 /*TODO: Change the font-family property to your linked font*/
 h2 {
   letter-spacing: 3px;
-  font-size: 25px;
+  font-size: 40px;
   font-family: 'Anton', sans-serif;
   color: #C2A1A1;
   text-align: center;
   line-height: 1.3em;
+  letter-spacing: 3px;
 }
 
 p {
   font-family: 'Sarabun', sans-serif;
   color: #C2A1A1;
-  font-size: 
+  font-size: 30px
 }
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
