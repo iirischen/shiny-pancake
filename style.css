@@ -20,8 +20,8 @@ html {
   font-size: 20px; /* Change the font size*/
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
-  color: white; /* Change the font color*/
-  background-color: #C2A1A1; /* Change the background color */
+  color: #CC6C6C; /* Change the font color*/
+  background-color:; /* Change the background color */
   box-sizing: border-box;
 }
 
