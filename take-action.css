@@ -20,6 +20,10 @@ h1 {
 .action-text {
   align-items: center;
 }
+
+.checklist-header {
+  color: #423737;
+}
 /******************************************************/
 /***************** ACTION ITEM LIST *******************/
 /******************************************************/
@@ -87,19 +91,18 @@ h1 {
 /* Header in the list container */
 #checklist-header {
   text-align: center;
-  color: #;
+  color: #423737;
   letter-spacing: 1px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Intructions inside the list container */
 #instructions {
-  font: 14px "Roboto", sans-serif;
+  font-family: 'Sarabun', sans-serif;
   text-align: center;
-  font-style: italic;
-  color: #0D38D3;
+  color: #422323;
+  font-size: 15px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
-  
 }
 
 /* The div container for the unordered action item list */
@@ -128,7 +131,7 @@ h1 {
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #43d6b9ff;
+  border-color: #FF0000;
   border-style: solid;
   border-width: 2px;
   
