@@ -21,7 +21,7 @@ html {
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
-  background-color: #0D38D3; /* Change the background color */
+  background-color: #C2A1A1; /* Change the background color */
   box-sizing: border-box;
 }
 
@@ -30,7 +30,7 @@ h1 {
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
   font-family: 'Anton', sans-serif;
-  color: #43d6b9ff;
+  color: #C2A1A1;
   text-align: center;
 }
 
@@ -39,17 +39,18 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: 'Anton', sans-serif;
-  color: #43d6b9ff;
+  color: #C2A1A1;
   text-align: center;
   line-height: 1.3em;
 }
 
 p {
   font-family: 'Sarabun', sans-serif;
+  color: #C2A1A1;
 }
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: #43d6b9ff;
+  color: #CC6C6C;
   text-decoration: none;
 }
 
@@ -115,7 +116,7 @@ li.nav a:hover {
 
   /* Design properties */
   background-color: #CC6C6C;
-  padding: 5px;
+  padding: 10px;
 
   /* Positioning properties */
   position: absolute;
@@ -165,9 +166,9 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
+  background-color: #422323;
   padding: 20px 45px;
-  margin: 35px;
+  margin: 40px;
   text-align: center;
 }
 
