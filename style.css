@@ -171,6 +171,7 @@ li.nav a:hover {
   background-color: #422323;
   padding: 50px 30px;
   text-align: center;
+  line-height: 2.5em;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
