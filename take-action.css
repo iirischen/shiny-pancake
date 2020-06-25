@@ -49,11 +49,10 @@ h2 {
 }
 
 #videobox {
-display: block;
 height: 300px;
 left: 25%;
 position: wrap;
-top: 25%;
+top: 50%;
 width: 500px;
 }
 /******************************************************/
