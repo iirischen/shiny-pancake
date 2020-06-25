@@ -115,6 +115,7 @@ h1 {
   padding: 10px 0 0 0;
   margin: 0;
   font-size: 20pt;
+  font-family: 'Sarabun', sans-serif;
 }
 
 /* Styling for individual action list items */
@@ -140,7 +141,7 @@ h1 {
   border-style: solid;
   border-width: 2px;
   
-  top: 15px;
+  top: 17px;
   left: 13px;
   height: 10px;
   width: 10px;
@@ -175,7 +176,7 @@ like a checkmark!
 #my-list li.all-done::before {
   content: "";
   position: absolute;
-  border-color: #0D38D3;
+  border-color: #423737;
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 5px;
