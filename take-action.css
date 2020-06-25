@@ -24,6 +24,7 @@ h1 {
 
 .checklist-header {
   color: #423737;
+  letter-spacing: .15em;
 }
 
 .action-li {
@@ -36,7 +37,15 @@ a:hover {
 }
 
 a {
-  color: #cc6c6c;
+  color: #e25d5d;
+}
+
+img {
+  max-width: 600px;
+}
+
+h2 {
+  letter-spacing: .1em;
 }
 /******************************************************/
 /***************** ACTION ITEM LIST *******************/
@@ -115,7 +124,7 @@ a {
   font-family: 'Sarabun', sans-serif;
   text-align: center;
   color: #422323;
-  font-size: 15px;
+  font-size: 17px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
