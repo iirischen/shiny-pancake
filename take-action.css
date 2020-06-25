@@ -19,6 +19,7 @@ h1 {
 
 .action-text {
   align-items: center;
+  line-height: 2em;
 }
 
 .checklist-header {
